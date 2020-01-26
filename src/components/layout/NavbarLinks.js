@@ -1,12 +1,17 @@
 import React from 'react';  // imr
-import { NavLink } from 'react-router-dom';  // imnl
+import { Link, NavLink } from 'react-router-dom';  // imnl
+// import Search from './NavSearch'
 
 const NavbarLinks = (params) => {
     return (
-        <ul className="right">
-            <li><NavLink to="/">some stuff</NavLink></li>
-            <li><NavLink to="/">some stuff</NavLink></li>
-        </ul>
+        <div>
+            <Link to='/' className="brand-logo"><i className="material-icons"></i>PokeX Search</Link>
+            <ul className="right">
+                {/* <li><NavLink to="/search">Search</NavLink></li> */}
+                <li><NavLink to="/pokelist">Pokemons</NavLink></li>
+                <li><NavLink to="/about">About Us</NavLink></li>
+            </ul>
+        </div>
     )
 }
 
