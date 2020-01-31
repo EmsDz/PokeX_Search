@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from "../layout/Navbar";
 import "../../App.css";
+// import MyImg from "../../../public/pok02.png"
+import MyImg from "./pok02.png"
 
 
 const Home = () => {
@@ -8,7 +10,8 @@ const Home = () => {
         <div className="">
             <Navbar />
             <header className="App-header">
-                {/* <img src={process.env.PUBLIC_URL + '../pok01.png'} alt='pokeImg' /> */}
+                {/* <img src={process.env.PUBLIC_URL + '../Pok01.png'} alt='pokeImg' /> */}
+                <img src={MyImg} alt='pokeImg' />
                 <h1>Cincinnatus  MiniProyect</h1>
             </header>
         </div>
