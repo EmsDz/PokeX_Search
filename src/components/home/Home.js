@@ -10,7 +10,6 @@ const Home = () => {
         <div className="">
             <Navbar />
             <header className="App-header">
-                {/* <img src={process.env.PUBLIC_URL + '../Pok01.png'} alt='pokeImg' /> */}
                 <img src={MyImg} alt='pokeImg' />
                 <h1>Cincinnatus  MiniProyect</h1>
             </header>
